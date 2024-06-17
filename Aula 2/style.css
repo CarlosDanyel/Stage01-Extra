@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(227,225, 248, 0) 82.08%, rgba(227, 255, 248, 0.38)100%);
+}
+
+header{
+  width: 100%;
+}
+
+header .display{
+  width: 90%;
+  max-width: 1005px;
+  margin:  0 auto;
+  padding-top: 65px;
+}
+
+header .display nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .display nav ul{
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+header .display nav ul li a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  opacity: 0.5;
+
+  color: #1F1534;
+}
+
+header .display nav ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main{
+  width: 100%;
+
+}
+
+main .main__text{
+  width: 90%;
+  max-width: 1005px;
+  margin: 45px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .main__text .container__text h1 {
+  font-family: "Mulish", sans-serif;
+    
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+
+  width: 490px;
+}
+
+main .main__text .container__text h1 span{
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+main .main__text .container__text p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+
+  margin: 40px 0;
+}
+
+main .main__text .container__text button{
+  text-transform: uppercase;
+  color: white;
+
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #69B99D;
+  border: none;
+  border-radius: 4px;
+
+  padding: 14px 32px 15px;
+}
+
+footer{
+  text-align: center;
+  margin: 80px 0 30px 0;
+}
+
+.balls{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
